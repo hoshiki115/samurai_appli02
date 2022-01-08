@@ -21,7 +21,7 @@ public class InputServlet extends HttpServlet {
             dispatcher.forward(request, response);
         } catch (Exception e) {
             e.printStackTrace();
-            response.sendRedirect("/oldAgeFundSimulation/error");
+            response.sendRedirect("/oldAgeFundSimulation/Error");
         }
     }
     // 入力値全クリアして、入力画面にフォワード
