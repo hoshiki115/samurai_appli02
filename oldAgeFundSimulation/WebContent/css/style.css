@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+input[type="number"] {
+    width: 60px;
+}
+#ex_chart {
+    max-width:960px;
+    max-height:720px;
+}
+.required {
+    margin-left: .2em;
+    color: #f33;
+    font-size: .5em;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+.aqua {
+    background-color: #00ffff;
+}
+.lime1 {
+    background-color: #00ff00;
+}
+.lime2 {
+    background-color: #00ff00;
+    text-align: center;
+}
+.lime3 {
+    background-color: #00ff00;
+    border-right: none;
+    text-align: center;
+}
+.lime4 {
+    background-color: #00ff00;
+    border-left: none;
+}
+.cyan {
+    background-color: #00ffff;
+}
+.lightyellow1 {
+    background-color: #ffffe0;
+}
+.lightyellow2 {
+    background-color: #ffffe0;
+    border-right: none;
+}
+.lightyellow3 {
+    background-color: #ffffe0;
+    border-left: none;
+}
+.border-right {
+    border-right: none;
+}
+.border-left {
+    border-left: none;
+}
+.border {
+    border-collapse: collapse;
+}
+.font-border {
+  font-size:16px;
+  border:none;
+}
+.left{
+    text-align: left;
+}
+.display {
+    display : inline-flex
+}
+.textarea {
+    vertical-align:top;
+}
